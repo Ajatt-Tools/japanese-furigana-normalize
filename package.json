@@ -1,0 +1,36 @@
+{
+  "name": "japanese-furigana-normalize",
+  "version": "1.0.5",
+  "description": "Normalize Japanese readings to furigana",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ava",
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "pretest": "npm run build",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "japanese",
+    "furigana",
+    "katakana",
+    "parse"
+  ],
+  "author": "Ajatt-Tools",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "ava": "^6.1.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@gerhobbelt/xregexp": "^4.4.0-32"
+  },
+  "homepage": "https://github.com/Ajatt-Tools/japanese-furigana-normalize",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajatt-Tools/japanese-furigana-normalize.git"
+  }
+}
